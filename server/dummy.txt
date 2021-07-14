@@ -1,0 +1,30 @@
+email varchar 255
+password varchar 32
+fname
+age
+bloodgroup
+
+trustfactor
+
+
+
+age:	<=17, 18-40, 45-65, >65
+bloodpressure:	low, normal, high
+allergy	: no, mild, heavy
+diabetes: no, mild, heavy
+heartdisease: no, mild, heavy
+hiv:	yes, no
+pulse: low, normal, high
+bmi: low, normal, high
+tatoo: no, sterile, non-sterile
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,131 @@
+.App {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  
+}
+
+
+.make-center{
+  text-align: center;
+  justify-content: center;
+}
+
+
+.form {
+  margin: 0;
+  padding: 0;
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*font-size: calc(10px + 2vmin);*/
+}
+.dashboard-form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.home {
+  margin: 0;
+  padding: 0;
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.blood-img{
+  width: 500px;
+  transition: 0.6s;
+}
+.blood-img:hover{
+  width: 600px;
+}
+
+.big-btn{
+  width: 250px;
+  transition: 0.6s;
+}
+.big-btn:hover{
+  width: 300px;
+  transition: 0.6s;
+}
+
+a, a:hover, a:active, a:visited, a:focus{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+.card{
+  width: 18rem;
+  background-color: transparent ;
+  margin: 12px;
+  transition: 0.6s;
+}
+.card:hover {
+  width: 19rem;
+  background-color: transparent ;
+  margin: 12px;
+}
+
+
+label{
+  align-items: flex-start;
+}
+
+.article {
+  text-align: center;
+  justify-content: center;
+}
+.article img, .article p, .article h1{
+  margin: 30px;
+  padding: 20px;
+}
+.article img{
+  width: 80%;
+}
+.article p{
+  font-size: 20px;
+  text-align: justify;
+}
+
+.profile-box{
+  padding: 15px;
+  width: 18rem;
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+
+
+.profile-box img{
+  width: 250px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.mybox-ash{
+  padding: 15px;
+  width: 18rem;
+  background: rgb(148, 236, 252);
+  color: #000;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}

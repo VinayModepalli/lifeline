@@ -1,0 +1,70 @@
+https://www.redcrossblood.org/donate-blood/how-to-donate/eligibility-requirements/eligibility-criteria-alphabetical.html
+
+https://live.bootstrap-table.com/example/options/table-sortable.html
+https://examples.bootstrap-table.com/index.html#options/table-sortable.html#view-source
+
+
+
+
+
+age,bloodpressure,allergy,diabetes,heartdisease,hiv,medications,pulse,bmi,tatoo,eligible
+
+age:	<=17, 18-40, 45-65, >65
+bloodpressure:	low, normal, high
+allergy	: no, mild, heavy
+diabetes: no, mild, heavy
+heartdisease: no, mild, heavy
+hiv:	yes, no
+pulse: low, normal, high
+bmi: low, normal, high
+tatoo: no, sterile, non-sterile
+
+
+
+
+table: requests
+
+
+RECIPIENT
+
+available donors table -> show eligible donors with request button.
+status of requests -> show the status of their requests in 'requests' table.
+
+DONOR
+
+show requests for that donor in requests database with accept/decline button.
+
+if recipient makes a request -> add request in 'requests' table
+he gets the reply for that request in status.
+
+
+
+
+USERS TABLE
+
+email
+password
+fname
+age
+bloodgroup
+gender
+trustfactor
+	bloodpressure 
+	bhdisease
+	diabetes
+	pulse
+	tatoo
+	allergy
+	eligible
+
+
+
+
+
+
+
+
+
+
+
+	
